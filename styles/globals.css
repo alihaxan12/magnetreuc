@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    html {
+     font-family: '"Montserrat"',  sans-serif;
+      overflow-x: hidden;
+    }
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        font-family: '"Montserrat"', Sans-serif ;
+    }
+  }
+#companyintrosvg {
+    width: 100%;
+    height: 119px;
+    transform: translateX(0%) rotateY(180deg);
+}
+
+#companyintrotopsvg {
+    width: 100%;
+    height: 67px;
+    transform: translateX(0%) rotateY(180deg);
+}
+#testmonialsvgtop{
+  width: calc(100% + 1.3px);
+  height: 97px;
+  transform-origin: center;
+  transform: rotateX(180deg) rotateY(180deg);
+
+}
+#candidatesvgbottom {
+  width: calc(100% + 1.3px);
+  height: 110px;
+  transform-origin: center;
+  transform: rotateX(180deg) rotateY(180deg);
+}
+#candidatesvgmanhandshake {
+  width: calc(100% + 1.3px);
+  height: 90px;
+}
+#servicesbottomsvg {
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
