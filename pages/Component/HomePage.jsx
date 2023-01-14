@@ -6,6 +6,7 @@ import Hero from './Hero'
 import Slider from '../Slider'
 import  Testimonials  from './Testimonials'
 
+
 export default function HomePage() {
   return (
     <div>
@@ -14,7 +15,7 @@ export default function HomePage() {
         <Testimonials/>
         <ClientCandidate/>
         <Footer/>
-        <Slider/>
+        
     </div>
   )
 }

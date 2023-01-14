@@ -13,8 +13,9 @@ const Testimonials = () => {
             <div className='justify-center bg-[#14213d]'>
                 <h1 className='text-5xl text-center font-bold text-white'>Testimonials</h1>
             </div>
-            <div className='md:w-full m-auto bg-[#14213d]'>
+            <div className='md:w-full m-auto bg-[#14213d] h-64'>
                 {/* <Carosel /> */}
+              
             </div>
             <div className='md:w-full'>
                 {/* <Carosel2 /> */}
