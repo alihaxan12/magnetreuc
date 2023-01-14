@@ -19,6 +19,7 @@ const Navbar = () => {
                         <Link href='/Candidates'><li className="cursor-pointer   font-bold text-white ">Candidates</li></Link>
                         <Link href='/SearchJob'><li className=" cursor-pointer  font-bold text-white  "> Search Jobs </li></Link>
                         <Link href='/ContactUs'><li className=" cursor-pointer  font-bold text-white  "> Contact Us </li></Link>
+                        <Link href='/Slider'><li className=" cursor-pointer  font-bold text-white  "> Contact Us </li></Link>
 
                     </ul>
                 </div>
